@@ -1,5 +1,5 @@
 # Complete this program to classify people by age
-#age = int(input("Enter age: "))
+age = int(input("Enter age: "))
 
 # Add your if-elif-else statements here
 # 0-12: Child
@@ -9,12 +9,12 @@
 
 # Your code here:
 
-#elif age <= 20:
-    #print("Adult")
-#elif age <= 19:
-    #print("Teenager")
-#else:
-    #print("Child")
+if age <= 20:
+    print("Adult")
+elif age <= 19:
+    print("Teenager")
+else:
+    print("Child")
 
 
 
